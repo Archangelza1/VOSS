@@ -4,3 +4,4 @@ selenium-server.log
 .idea
 homepage.jpg
 out
+package-lock.json

@@ -1,5 +1,5 @@
 module.exports = {
-  '@disabled': true,
+  '@disabled': false,
   'Register & Login' : function (client) {
     const homepage = client.page.ultimateqa();
 

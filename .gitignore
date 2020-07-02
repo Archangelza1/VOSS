@@ -1,0 +1,6 @@
+tests_output
+node_modules
+selenium-server.log
+.idea
+homepage.jpg
+out

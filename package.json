@@ -1,0 +1,32 @@
+{
+  "name": "VOSS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "node ./node_modules/nightwatch/bin/nightwatch -e chrome -c nightwatch.conf.js",
+    "test:firefox": "node ./node_modules/nightwatch/bin/nightwatch -e firefox -c nightwatch.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Archangelza1/VOSS.git"
+  },
+  "keywords": [],
+  "author": "Brendan Sahli",
+  "license": "NONE",
+  "bugs": {
+    "url": "https://github.com/Archangelza1/VOSS/issues"
+  },
+  "homepage": "https://github.com/Archangelza1/VOSS#readme",
+  "devDependencies": {
+    "chromedriver": "^83.0.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "geckodriver": "^1.19.1",
+    "jsdoc": "^3.6.4",
+    "nightwatch": "^1.3.6",
+    "nightwatch-html-reporter": "^2.0.6",
+    "selenium-server-standalone-jar": "^3.141.59"
+  }
+}
